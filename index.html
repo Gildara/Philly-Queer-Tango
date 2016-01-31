@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
+<link href='https://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
+<div class='main-page'>
 	<head>
 		<title>Queer Tango</title>
 		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/myStyles.css">
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.js"></script>
+
 		<style>
 			section  {
 				width: 100vw;
@@ -15,34 +19,33 @@
 	</head>
 	
 	
-	<body> 
-		<nav class="navbar navbar-right" role="navigation">
-			<ul class="nav navbar navbar-nav">
-			<li><a href="index.html">Home</a></li>
+	<body>
+		<div id="coverAll">
+		<nav id="navBar" class="navbar navbar-right white-text" role="navigation">
+			<ul id="navBar" class="nav navbar navbar-nav white-text">
+				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About</a></li>
 				<li><a href="FAQ.html">FAQ</a></li>
 				<li><a href="calendar.html">Calendar</a></li>
 				<li><a href="contact.html">Contact Us</a></li>
 			</ul>
 		</nav>
-		<section id="header" class="jumbotron">
-			<h1 class="text-center">Philly Queer Tango</h1>
-			<p class="lead"></p>
-		</section>
+		<div class="row-centered">
+			<h1 id="pageTitle" class="text-center white-text shadow-text">Philly Queer Tango</h1>
+		</div>
 		
-		<section id="main" class="container">
-			main ad with prizes and event details goes here
-		</section>
 		
-		<footer class="footer navbar-fixed-bottom">
-			<a href="https://www.facebook.com/groups/phillyqueertango/"><button class="btn">Facebook</button></a>
-			<button class="btn">address</button>
-			<button class="btn">email</button>
+		<footer id="footerBar" class="footer navbar-fixed-bottom">
+			<a href="https://www.facebook.com/groups/phillyqueertango/"><button id="btn-custom" class="btn">Facebook</button></a>
+			<a href="https://www.google.com/maps/place/Sangha+Space/@39.9169662,-75.3920314,15z/data=!4m2!3m1!1s0x0:0x56b4f4f5a30b2b24?sa=X&ved=0ahUKEwj82eqD5KTKAhUBGD4KHYx5DCIQ_BIIgQEwDQ">
+        <button id="btn-custom" class="btn">Map us</button>
+        <a href=info@phillyqueertango.com>
+          <button id="btn-custom" class="btn">email</button>
 			
 		</footer>
 		
 		
-	
+	</div>
 	</body>
 	
 	
