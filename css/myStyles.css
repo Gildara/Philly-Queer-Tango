@@ -1,8 +1,147 @@
-	section  {
-				width: 100vw;
-				padding-left:20%;
-				padding-top:40px;
-			}
+#navBar {
+	 color: white
+	 font-family: 'Yellowtail', cursive;
+	}
 
-			
-	
+#pageTitle {
+	color: white;
+	text-size: 90%;
+	font-family: 'Yellowtail', cursive;
+	text-align: center;
+	}
+
+
+a:link {
+	color:#e67300;
+}
+a:hover{
+	color: hotpink;
+	}
+a:visited {
+	color: #b3005a;
+}
+a:active {	
+	color: #ff704d;
+}
+
+
+#btn-custom {
+  background-color: hsl(0, 0%, 22%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b2b2b2", endColorstr="#383838");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#b2b2b2), to(#383838));
+  background-image: -moz-linear-gradient(top, #b2b2b2, #383838);
+  background-image: -ms-linear-gradient(top, #b2b2b2, #383838);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b2b2b2), color-stop(100%, #383838));
+  background-image: -webkit-linear-gradient(top, #b2b2b2, #383838);
+  background-image: -o-linear-gradient(top, #b2b2b2, #383838);
+  background-image: linear-gradient(#b2b2b2, #383838);
+  border-color: #383838 #383838 hsl(0, 0%, 10%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.79);
+  -webkit-font-smoothing: antialiased;
+}
+
+#faQuestion {
+	color: white;
+	font-size: 200%;
+	font-family: 'Philosopher', sans-serif;
+	font-style: italic;
+}
+
+#regPara {
+	color: white;
+	font-family: 'Philosopher', sans-serif;	
+}
+
+#tabbedPara {
+	padding-left:5em;
+	color: white;
+	font-family: 'Philosopher', sans-serif;	
+}
+
+#h2er {
+	color: white;
+	font-size: 200%;
+	font-family: 'Philosopher', sans-serif;
+	font-style: italic;
+}
+
+#jumbo {
+	 /* IE8 and below */
+    background: rgb(0, 0, 0);
+    /* all other browsers */
+    background: rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+  font-size: 700%;
+  text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+  text-align: center;
+  margin: 0;
+}
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  margin-right: -4px;
+}
+section {
+  width: 100vw;
+  padding-left: 20%;
+  padding-top: 40px;
+}
+
+body {
+  background: url("http://www.publicdomainpictures.net/pictures/30000/velka/christmas-light-rainbow.jpg") no-repeat center center fixed;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  height: auto;
+  font-family: 'Yellowtail', cursive; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron {
+  box-shadow: 10px 0 20px 10px black;
+  opacity: 0.99;
+  filter: alpha(opacity=99);
+  z-index: 99;
+}
+
+.center-wrap {
+  text-align: center;
+  margin: auto;
+  size: inherit;
+  display: inline-block;
+}
+
+.row-right {
+  text-align: right;
+}
+
+.row-centered {
+  text-align: center;
+}
+
+.opacity {
+  opacity: 1.0;
+  z-index 100;
+}
+
+.box-shadow {
+  box-shadow: 10px 0 20px 10px black;
+}
+
+.shadow-text {
+  text-shadow: 10px 10px 10px black;
+}
+
+.white-border {
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+}
