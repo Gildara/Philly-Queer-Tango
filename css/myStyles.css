@@ -1,6 +1,6 @@
 #navBar  {
 	 color: hotpink;
-	 font-family: 'Yellowtail', cursive;
+	 font-family: 'Philosopher', sans-serif;
 	 border-width: 0px;
     -webkit-box-shadow: 0px 0px;
     box-shadow: 0px 0px;
@@ -12,18 +12,22 @@
 	
 #navBar > li > a:link {
 	color:#e67300;
+	font-family: 'Philosopher', sans-serif;
 }
 
 #navBar > li > a:hover {
 	color: hotpink;
+	font-family: 'Philosopher', sans-serif;
 }
 
 #navBar > li > a:visited {
 	color: #b3005a;
+	font-family: 'Philosopher', sans-serif;
 }
 
 #navBar > li > a:active {
 	color: #ff704d;
+	font-family: 'Philosopher', sans-serif;
 }
 
 
@@ -48,6 +52,11 @@ a:active {
 	color: #ff704d;
 }
 
+#images {
+	/*border-radius: 20px;
+	box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px; 
+	border:10px solid #13001a; */
+ }
 
 #btn-custom {
   background-color: hsl(0, 0%, 22%) !important;
@@ -64,11 +73,11 @@ a:active {
   color: #fff !important;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.79);
   -webkit-font-smoothing: antialiased;
+  font-family: 'Philosopher', sans-serif;
 }
 
 #faQuestion {
 	color: white;
-	
 	font-family: 'Philosopher', sans-serif;
 	font-style: italic;
 }
@@ -98,6 +107,26 @@ a:active {
     background: rgba(0, 0, 0, 0.8);
 }
 
+#imgJumbo {
+	background: -webkit-linear-gradient(left, rgba(222,128,255,0.4), rgba(38, 0, 51, 0.8)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(222,128,255,0.2), rgba(38, 0, 51, 0.8)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(222,128,255,0.2), rgba(38, 0, 51, 0.8)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(222,128,255,0.2), rgba(38, 0, 51, 0.8)); /* Standard syntax (must be last) */
+	box-shadow: 10px 20px 20px 10px black;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 40px;
+	background-size: cover;
+}
+
+.jumbotron {
+  box-shadow: 10px 0 20px 10px black;
+  opacity: 0.99;
+  filter: alpha(opacity=99);
+  z-index: 99;
+}
+
 h1 {
   font-size: 700%;
   text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
@@ -118,22 +147,12 @@ section {
 
 body {
   background: url("http://www.publicdomainpictures.net/pictures/30000/velka/christmas-light-rainbow.jpg") no-repeat center center fixed;
-  border-color: black;
-  border-width: 5px;
-  border-style: solid;
   height: auto;
   font-family: 'Yellowtail', cursive; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-.jumbotron {
-  box-shadow: 10px 0 20px 10px black;
-  opacity: 0.99;
-  filter: alpha(opacity=99);
-  z-index: 99;
 }
 
 .center-wrap {
@@ -169,3 +188,4 @@ body {
   border-width: 5px;
   border-style: solid;
 }
+
