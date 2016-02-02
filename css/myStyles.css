@@ -1,33 +1,33 @@
 #navBar  {
-	 color: hotpink;
-	 font-family: 'Philosopher', sans-serif;
-	 border-width: 0px;
+	color: hotpink;
+	border-width: 0px;
     -webkit-box-shadow: 0px 0px;
     box-shadow: 0px 0px;
     background-color: rgba(0,0,0,0.0);
     background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
     background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
     background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+	font-family: 'Raleway', sans-serif;
 	}
 	
 #navBar > li > a:link {
 	color:#e67300;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 #navBar > li > a:hover {
 	color: hotpink;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 #navBar > li > a:visited {
 	color: #b3005a;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 #navBar > li > a:active {
 	color: #ff704d;
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 
@@ -120,10 +120,6 @@ a:active {
     background: -moz-linear-gradient(right, rgba(222,128,255,0.2), rgba(38, 0, 51, 0.8)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, rgba(222,128,255,0.2), rgba(38, 0, 51, 0.8)); /* Standard syntax (must be last) */
 	box-shadow: 10px 20px 20px 10px black;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	padding-left: 20px;
-	padding-right: 40px;
 	background-size: cover;
 	background-repeat:no-repeat;
 	background-position: center; 
@@ -141,7 +137,7 @@ h1 {
   text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
   text-align: center;
   margin: 0;
-  font-family: 'Yellowtail', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 
 .col-centered {
@@ -163,7 +159,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .center-wrap {
