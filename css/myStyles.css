@@ -56,6 +56,11 @@ a:active {
 	/*border-radius: 20px;
 	box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px; 
 	border:10px solid #13001a; */
+	background-size: cover; 
+	background-position: center; 
+	background-repeat:no-repeat;
+	
+	
  }
 
 #btn-custom {
@@ -118,6 +123,8 @@ a:active {
 	padding-left: 20px;
 	padding-right: 40px;
 	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center; 
 }
 
 .jumbotron {
