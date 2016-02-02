@@ -53,16 +53,11 @@ a:active {
 }
 
 #images {
-	background: -webkit-linear-gradient(left, rgba(222,128,255,0.2), rgba(38, 0, 51, 0.8)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, rgba(222,128,255,0.2), rgba(38, 0, 51, 0.8)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, rgba(222,128,255,0.2), rgba(38, 0, 51, 0.8)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, rgba(222,128,255,0.2), rgba(38, 0, 51, 0.8)); /* Standard syntax (must be last) */
-	padding-top: 40px;
-	padding-bottom: 40px;
-	box-shadow: 10px 20px 20px 10px black;
-    border-radius: 20px;
+	/*border-radius: 20px;
+	box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px; 
+	border:10px solid #13001a; */
  }
- 
+
 #btn-custom {
   background-color: hsl(0, 0%, 22%) !important;
   background-repeat: repeat-x;
@@ -113,12 +108,23 @@ a:active {
 }
 
 #imgJumbo {
-	background: -webkit-linear-gradient(left, rgba(222,128,255,0), rgba(38, 0, 51, 0.8)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, rgba(222,128,255,0), rgba(38, 0, 51, 0.8)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, rgba(222,128,255,0), rgba(38, 0, 51, 0.8)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, rgba(222,128,255,0), rgba(38, 0, 51, 0.8)); /* Standard syntax (must be last) */
+	background: -webkit-linear-gradient(left, rgba(222,128,255,0.4), rgba(38, 0, 51, 0.8)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(222,128,255,0.2), rgba(38, 0, 51, 0.8)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(222,128,255,0.2), rgba(38, 0, 51, 0.8)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(222,128,255,0.2), rgba(38, 0, 51, 0.8)); /* Standard syntax (must be last) */
+	box-shadow: 10px 20px 20px 10px black;
 	padding-top: 40px;
 	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 40px;
+	background-size: cover;
+}
+
+.jumbotron {
+  box-shadow: 10px 0 20px 10px black;
+  opacity: 0.99;
+  filter: alpha(opacity=99);
+  z-index: 99;
 }
 
 h1 {
@@ -182,3 +188,4 @@ body {
   border-width: 5px;
   border-style: solid;
 }
+
