@@ -6,6 +6,12 @@ $(document).ready(function() {
 	$.get("includes/footer.inc.html", function(data) {
 		$("#footer").html(data);
 	});
+
+
+	$("li a").click (function (e) {
+		$(this).addClass('active').siblings().removeClass('active');
+	});
+
 });
 
 
