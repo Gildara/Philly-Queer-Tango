@@ -21,7 +21,7 @@
 }
 
 #navBar > li > a:visited {
-	color: #b3005a;
+	color: white;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -42,7 +42,7 @@ a:hover{
 	color: hotpink;
 	}
 a:visited {
-	color: #b3005a;
+	color: #e67300;
 }
 a:active {	
 	color: #ff704d;
@@ -56,6 +56,12 @@ a:active {
 	background-position: center; 
 	background-repeat:no-repeat;
  }
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color:white;
+    background-color:#b3005a;
+    }
+
 
 #btn-custom {
  background-color: hsl(330, 100%, 19%) !important;
@@ -76,6 +82,7 @@ a:active {
 }
 
 #faQuestion {
+	font-size: 200%
 	color: white;
 	font-family: 'Philosopher', sans-serif;
 	font-style: italic;
@@ -148,10 +155,6 @@ h1 {
   display: inline-block;
   float: none;
   margin-right: -4px;
-}
-section {
-  width: 100vw;
-  padding-top: 40px;
 }
 
 body {
