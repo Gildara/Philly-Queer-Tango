@@ -1,7 +1,28 @@
-googleCal: [
-  {
-    calendar: "phillyqueertango@gmail.com",
-    apikey: "359740162564-vvbj4fs0eu4r5bg3ch5ro2ft8i264bd9.apps.googleusercontent.com"
-  }, ... ]
-$(container).kalendar();
+$(document).ready(function() {
 
+    // page is now ready, initialize the calendar...
+
+$('#calendar').fullCalendar({
+				selectable: true,
+				selectHelper: true,
+				select: function(start, end, allDay)
+				{
+					var title = prompt('Event Title:');
+					if (title)
+					{
+						calendar.fullCalendar('renderEvent',
+							{
+								title: title,
+								start: start,
+								end: end,
+								allDay: allDay
+							},
+							true // make the event "stick"
+						);
+					}
+					calendar.fullCalendar('unselect');
+				},
+				editable: true		
+    })
+			
+});
