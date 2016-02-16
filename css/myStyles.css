@@ -70,6 +70,11 @@ a:active {
 	background-color:#b3005a !important;
 }
 
+#kalendar {
+	color: white;
+	background-color: #b3005a;
+	font-family: 'Raleway', sans-serif;
+}
 
 #btn-custom {
  background-color: hsl(330, 100%, 19%) !important;
