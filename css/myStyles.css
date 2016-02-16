@@ -55,13 +55,9 @@ a:active {
 	background-size: cover; 
 	background-position: center; 
 	background-repeat:no-repeat;
-	
-	
  }
 
 #btn-custom {
- 
-  
  background-color: hsl(330, 100%, 19%) !important;
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0f87", endColorstr="#600030");
@@ -88,6 +84,13 @@ a:active {
 #regPara {
 	color: white;
 	font-family: 'Philosopher', sans-serif;	
+}
+
+#regParaAbout {
+	color: white;
+	font-family: 'Philosopher', sans-serif;	
+	text-align: left;
+	margin:1px 1px 50px 1px;
 }
 
 #tabbedPara {
@@ -121,6 +124,12 @@ a:active {
 	background-position: center; 
 }
 
+#aboutUsJumbo {
+	 /* IE8 and below */
+    background: rgb(0, 0, 0);
+    /* all other browsers */
+    background: rgba(0, 0, 0, 0.2);
+}
 .jumbotron {
   box-shadow: 10px 0 20px 10px black;
   opacity: 0.99;
@@ -142,7 +151,6 @@ h1 {
 }
 section {
   width: 100vw;
-  padding-left: 20%;
   padding-top: 40px;
 }
 
