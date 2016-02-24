@@ -25,16 +25,35 @@ $('#calendar').fullCalendar({
 				editable: true,
 				weekMode: 'liquid',
 				url:'#',
-				events: [
+			events: [
 					{
 						title: 'Tango Hop',
-						start: new Date(2016, 1, 9, 6),
-						end: new Date(2016, 1, 9, 10),
+						start: '2016-03-12T20:00:00',
+						end: '2016-03-13T03:00:00',
 						allDay: false
 					},
 					{
-						title: 'Tango Meetup',
-						start: new Date(2016, 1, 11, 00),
+						title: 'Queer Tango!',
+						start: '2016-03-05T14:30:00',
+						end: '2016-03-05T17:30:00',
+                    allDay: false
+                },
+				{
+						title: 'Queer Tango!',
+						start: '2016-04-02T14:30:00',
+						end: '2016-04-02T17:30:00',
+                    allDay: false
+                },
+				{
+						title: 'Queer Tango!',
+						start: '2016-05-07T14:30:00',
+						end: '2016-05-07T17:30:00',
+                    allDay: false
+                },
+				{
+						title: 'Beginner Series Starts!',
+						start: '2016-03-02T20:30:00',
+						end: '2016-03-02T22:00:00',
                     allDay: false
                 }
             ]
