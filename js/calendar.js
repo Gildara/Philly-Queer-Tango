@@ -7,7 +7,7 @@ $('#calendar').fullCalendar({
 				selectHelper: true,
 				select: function(start, end, allDay)
 				{
-					var title = prompt('Event Title:');
+					/*var title = prompt('Event Title:');
 					if (title)
 					{
 						calendar.fullCalendar('renderEvent',
@@ -19,7 +19,7 @@ $('#calendar').fullCalendar({
 							},
 							true // make the event "stick"
 						);
-					}
+					}*/
 					calendar.fullCalendar('unselect');
 				},
 				editable: true,
